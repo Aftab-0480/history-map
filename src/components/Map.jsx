@@ -33,7 +33,7 @@ function Map({ year }) {
                 map.flyToBounds(bounds, {
                     padding: [50, 50],
                     duration: 1.2,
-                    maxZoom: 6 
+                    maxZoom: 6
                 });
             }
         }, [locations, map]);
@@ -50,9 +50,9 @@ function Map({ year }) {
                 zoom={4}
                 className="h-full w-full"
             >
-                
+
                 <TileLayer
-                    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+                    url={`https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=${import.meta.env.VITE_CARTO_API_KEY}`}
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
                 />
 
