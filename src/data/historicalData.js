@@ -1,0 +1,13 @@
+const historicalData = [
+  { title: "Mauryan Empire", startYear: -322, endYear: -185, lat: 25.6093, lng: 85.1235, location: "Pataliputra (Patna)", kind: "place", description: "One of the largest empires of the ancient Indian subcontinent, founded by Chandragupta Maurya. Pataliputra served as its imperial capital." },
+  { title: "Nalanda University", startYear: 427, endYear: 1193, lat: 25.1367, lng: 85.4440, location: "Nalanda, Bihar", kind: "place", description: "A renowned Buddhist monastic university and centre of learning that attracted students and scholars from across Asia." },
+  { title: "Chola Empire", startYear: 850, endYear: 1279, lat: 10.7867, lng: 79.1378, location: "Thanjavur, Tamil Nadu", kind: "place", description: "A major Tamil dynasty known for temple architecture, maritime trade and naval expeditions across the Indian Ocean." },
+  { title: "Vijayanagara Empire", startYear: 1336, endYear: 1646, lat: 15.3350, lng: 76.4600, location: "Hampi, Karnataka", kind: "place", description: "A powerful South Indian empire whose capital at Vijayanagara became a major centre of trade, culture and architecture." },
+  { title: "Mughal Empire", startYear: 1526, endYear: 1857, lat: 27.1767, lng: 78.0081, location: "Agra, Uttar Pradesh", kind: "place", description: "An early modern empire founded by Babur. Agra was an important imperial capital under several Mughal rulers." },
+  { title: "Battle of Plassey", startYear: 1757, endYear: 1757, lat: 23.8067, lng: 88.2500, location: "Plassey, Bengal", kind: "event", description: "The East India Company's victory over Siraj ud-Daulah became a turning point in the expansion of Company power in Bengal." },
+  { title: "Revolt of 1857", startYear: 1857, endYear: 1858, lat: 28.9845, lng: 77.7064, location: "Meerut, Uttar Pradesh", kind: "event", description: "A major uprising against East India Company rule that began among sepoys at Meerut and spread across north and central India." },
+  { title: "Jallianwala Bagh", startYear: 1919, endYear: 1919, lat: 31.6200, lng: 74.8765, location: "Amritsar, Punjab", kind: "event", description: "The site of the 13 April 1919 massacre, when British troops fired on a gathering of civilians." },
+  { title: "Dandi March", startYear: 1930, endYear: 1930, lat: 20.7141, lng: 72.8634, location: "Dandi, Gujarat", kind: "event", description: "Mahatma Gandhi's 240-mile march to the coast, ending with the symbolic defiance of the British salt laws." },
+  { title: "Indian Independence", startYear: 1947, endYear: 1947, lat: 28.6139, lng: 77.2090, location: "New Delhi", kind: "event", description: "India became independent from British rule on 15 August 1947." }
+];
+export default historicalData;
